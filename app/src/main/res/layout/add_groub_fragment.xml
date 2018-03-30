@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+
+    android:padding="5dp">
+
+
+    <ListView
+        android:id="@+id/listView_checked"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#000"
+        android:dividerHeight="0.8dp" />
+
+    <Button
+        android:id="@+id/fabov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/cancle_desc"
+        android:textColor="#ffffff"
+        android:text="@string/cancle"
+
+        />
+
+    <Button
+        android:id="@+id/create_groub_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:contentDescription="@string/create_desc"
+        android:text="@string/create"
+        android:layout_alignParentRight="true" />
+    <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No users found!"
+            android:id="@+id/noUsersText"
+            android:visibility="gone"/>
+
+        -->
+</RelativeLayout>

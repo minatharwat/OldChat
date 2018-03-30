@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Old Chat</string>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <string name="base_url">https://old-chat-98975.firebaseio.com/</string>
+    <string name="base_url_json">https://old-chat-98975.firebaseio.com/users.json</string>
+    <string name="enter_title">Enter Groub Namet</string>
+
+
+    <string name="message_url">messages/</string>
+
+    <string name="login_desc">to login to the personal and groub chat with username and password</string>
+    <string name="register_desc">to register and make a new account</string>
+    <string name="register_save_desc">save the data you registered and come back to login screen</string>
+
+    <string name="create_desc">create the groub with the selected members and choose groub name </string>
+    <string name="cancle_desc">to cancle creating a new groub and return to groubchat</string>
+
+    <string name="banner_desc">the banner </string>
+
+    <string name="fab_desc">create a new groub and select members of it </string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="cancle">Cancle</string>
+    <string name="create">Create</string>
+    <string name="send">send message t</string>
+
+    <string name="write">Write a message…</string>
+
+
+    <string name="memberstitle">           Members</string>
+
+    <string name="Blank_handle">can\'t be blank</string>
+
+
+    <string name="toast1">you must choose more 1 user </string>
+    <string name="toast2unf">user not found</string>
+    <string name="toast3unfpr">User Not Found ,Please register</string>
+    <string name="toastincorrectpassword">incorrect password</string>
+    <string name="toastinternetconnection">There\'s No Internet Connection</string>
+
+    <string name="Loading...">Loading…</string>
+
+    <string name="regsucecess">registration successful,now Login</string>
+
+    username already exists
+    <string name="usernamealreadyexists">username already exists</string>
+
+    <string name="chars">at least 5 characters long</string>
+    <string name="validemail">please enter a valid email format</string>
+    <string name="alphabet">only alphabet or number allowed</string>
+
+    <string name="toasthello">hello from schduler</string>
+
+
+    <!--
+
+    firebase nodes
+
+    -->
+
+    <string name="groubchat">GroubChat</string>
+    <string name="memebers">members</string>
+    <string name="no_memebers">no_memebers</string>
+
+    <string name="users">users</string>
+    <string name="password">password</string>
+    <string name="E_mail">E_mail</string>
+
+    <string name="name">name</string>
+    <string name="message">message</string>
+
+    <string name="user">user</string>
+    <!--
+
+        intents
+
+        -->
+
+
+    <string name="roomname">Room_name</string>
+    <string name="username">User_name</string>
+
+    <!--
+
+           xml
+
+           -->
+    <string name="chat_user">chat_user</string>
+
+
+    <string name="enter_user">Enter UserName</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+
+    <string name="Members"> Members </string>
+
+    <string name="Available_Contacts">Available Contacts</string>
+
+
+    <string name="expertion">^[\w\.-]+@([\w\-]+\.)+[A-Z]{2,4}$</string>
+
+    <string name="date">dd-MM-yyyy (HH:mm)</string>
+    <string name="Mas">/Massages</string>
+    <string name="OK">OK</string>
+
+
+    <string name="wi">check internet connection</string>
+    <string name="Sone">oneop</string>
+    <string name="Sgroub">op</string>
+
+    <string name="fra">qq</string>
+
+</resources>

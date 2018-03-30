@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "87688232863",
+    "firebase_url": "https://old-chat-98975.firebaseio.com",
+    "project_id": "old-chat-98975",
+    "storage_bucket": "old-chat-98975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87688232863:android:942edebf42babc90",
+        "android_client_info": {
+          "package_name": "com.example.user.oldchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87688232863-maui5vvc5lpdqgk8nfajigs3u1rdl6g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA00lsmeUob40z4kPMmcbEuU8qbJ-23Jy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

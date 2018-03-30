@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.oldchat.LoginActivity"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/olll"
+        android:contentDescription="@string/banner_desc"
+        android:id="@+id/i" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/i">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="96dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimary"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_user" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/username"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignRight="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/enter_pass" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/password"
+            android:layout_alignRight="@+id/password"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="72dp"
+            android:text="@string/login"
+            android:contentDescription="@string/login_desc"
+            android:onClick="login"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Login"
+            android:layout_alignLeft="@+id/password"
+            android:layout_alignStart="@+id/password"
+            android:text="@string/register"
+            android:contentDescription="@string/register_desc"
+            android:onClick="register"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            tools:ignore="OnClick" />
+    </RelativeLayout>
+</RelativeLayout>
